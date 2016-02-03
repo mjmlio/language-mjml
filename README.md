@@ -3,7 +3,7 @@
 
 Adds syntax highlighting and snippets to MJML files in Atom.
 
-This is a fork from language-mjml by atom
+This is a fork from language-html by atom
 
 ## Installation
 
