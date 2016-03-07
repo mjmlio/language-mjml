@@ -7,7 +7,7 @@
     'prefix': 'col'
     'body': """
       <mj-column>
-          $1
+      \t$1
       </mj-column>
     """
 
@@ -15,7 +15,7 @@
     'prefix': 'column'
     'body': """
       <mj-column>
-          $1
+      \t$1
       </mj-column>
     """
 
@@ -23,7 +23,7 @@
     'prefix': 'section'
     'body': """
       <mj-section>
-          $1
+      \t$1
       </mj-section>
     """
 
@@ -31,7 +31,7 @@
     'prefix': 'raw'
     'body': """
       <mj-raw>
-          $1
+      \t$1
       </mj-raw>
     """
 
@@ -39,7 +39,7 @@
     'prefix': 'text'
     'body': """
       <mj-text>
-          $1
+      \t$1
       </mj-text>
     """
 
@@ -47,7 +47,7 @@
     'prefix': 'button'
     'body': """
       <mj-button>
-          $1
+      \t$1
       </mj-button>
     """
 
@@ -55,7 +55,7 @@
     'prefix': 'list'
     'body': """
       <mj-list>
-          $1
+      \t$1
       </mj-list>
     """
 
@@ -63,7 +63,7 @@
     'prefix': 'body'
     'body': """
       <mj-body>
-          $1
+      \t$1
       </mj-body>
     """
 
@@ -71,7 +71,7 @@
     'prefix': 'social'
     'body': """
       <mj-social>
-          $1
+      \t$1
       </mj-social>
     """
 
