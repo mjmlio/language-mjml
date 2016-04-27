@@ -2,6 +2,59 @@
 '.text.mjml.basic, .text.mjml, .text.mjml .meta.scope.between-tag-pair, .text.mjml .punctuation.tag.begin':
 
 # MJML elements
+  'Mjml Container':
+    'prefix': 'contain'
+    'body': """
+      <mj-container>
+      \t$1
+      </mj-container>
+    """
+
+  'Mjml Divider':
+    'prefix': 'divider'
+    'body': """
+      <mj-divider $1 />
+    """
+
+  'Mjml Container':
+    'prefix': 'container'
+    'body': """
+      <mj-container>
+      \t$1
+      </mj-container>
+    """
+
+  'Mjml Invoice':
+    'prefix': 'invoice'
+    'body': """
+      <mj-invoice>
+      \t$1
+      </mj-invoice>
+    """
+
+  'Mjml Location':
+    'prefix': 'location'
+    'body': """
+      <mj-location>
+      \t$1
+      </mj-location>
+    """
+
+  'Mjml Table':
+    'prefix': 'table'
+    'body': """
+      <mj-table>
+      \t$1
+      </mj-table>
+    """
+
+  'Mjml':
+    'prefix': 'mjml'
+    'body': """
+      <mjml>
+      \t$1
+      </mjml>
+    """
 
   'Mjml Column':
     'prefix': 'col'
@@ -19,7 +72,7 @@
       </mj-column>
     """
 
-  'Section':
+  'Mjml Section':
     'prefix': 'section'
     'body': """
       <mj-section>
@@ -27,7 +80,7 @@
       </mj-section>
     """
 
-  'Raw':
+  'Mjml Raw':
     'prefix': 'raw'
     'body': """
       <mj-raw>
@@ -35,7 +88,7 @@
       </mj-raw>
     """
 
-  'Text':
+  'Mjml Text':
     'prefix': 'text'
     'body': """
       <mj-text>
@@ -43,7 +96,7 @@
       </mj-text>
     """
 
-  'Button':
+  'Mjml Button':
     'prefix': 'button'
     'body': """
       <mj-button>
@@ -51,7 +104,7 @@
       </mj-button>
     """
 
-  'List':
+  'Mjml List':
     'prefix': 'list'
     'body': """
       <mj-list>
@@ -59,7 +112,7 @@
       </mj-list>
     """
 
-  'Body':
+  'Mjml Body':
     'prefix': 'body'
     'body': """
       <mj-body>
@@ -67,7 +120,7 @@
       </mj-body>
     """
 
-  'Social':
+  'Mjml Social':
     'prefix': 'social'
     'body': """
       <mj-social>
@@ -75,7 +128,10 @@
       </mj-social>
     """
 
-  # A
-  'Anchor':
-    'prefix': 'a'
-    'body': '<a href="${1:#}">$2</a>$0'
+  'MJML Image':
+    'prefix': 'image'
+    'body': """
+      <mj-image $1 />
+    """
+
+
