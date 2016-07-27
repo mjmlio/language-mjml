@@ -163,3 +163,9 @@
     'body': """
       <mj-font $1 />
     """
+
+  'MJML Title':
+    'prefix': 'title'
+    'body': """
+      <mj-title> $1 </mj-title>
+    """
