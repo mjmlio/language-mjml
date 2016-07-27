@@ -178,4 +178,10 @@
       </mj-html>
     """
 
+  'Mjml Spacer':
+    'prefix': 'spacer'
+    'body': """
+      <mj-spacer $1 />
+    """
+
   
