@@ -169,3 +169,13 @@
     'body': """
       <mj-title> $1 </mj-title>
     """
+
+  'MJML HTML':
+    'prefix': 'html'
+    'body': """
+      <mj-html>
+      \t$1
+      </mj-html>
+    """
+
+  
