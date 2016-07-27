@@ -134,4 +134,10 @@
       <mj-image $1 />
     """
 
-
+  'MJML Group':
+    'prefix': 'group'
+    'body': """
+      <mj-group>
+      \t$1
+      </mj-group>
+    """
