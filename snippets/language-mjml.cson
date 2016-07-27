@@ -195,3 +195,13 @@
     'body': """
       <mj-all $1 />
     """
+
+  'MJML Hero':
+    'prefix': 'hero'
+    'body': """
+      <mj-hero>
+        <mj-hero-content>
+        \t$1
+        </mj-hero-content>
+      </mj-hero>
+    """
