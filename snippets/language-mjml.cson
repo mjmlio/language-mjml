@@ -149,3 +149,17 @@
       \t$1
       </mj-head>
     """
+
+  'MJML Attributes':
+    'prefix': 'attributes'
+    'body': """
+      <mj-attributes>
+      \t$1
+      </mj-attributes>
+    """
+
+  'MJML Font':
+    'prefix': 'font'
+    'body': """
+      <mj-font $1 />
+    """
