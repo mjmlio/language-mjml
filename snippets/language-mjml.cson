@@ -141,3 +141,11 @@
       \t$1
       </mj-group>
     """
+
+  'MJML Head':
+    'prefix': 'head'
+    'body': """
+      <mj-head>
+      \t$1
+      </mj-head>
+    """
