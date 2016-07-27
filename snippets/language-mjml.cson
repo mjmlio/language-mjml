@@ -184,4 +184,14 @@
       <mj-spacer $1 />
     """
 
-  
+  'Mjml Class':
+    'prefix': 'class'
+    'body': """
+      <mj-class $1 />
+    """
+
+  'Mjml All':
+    'prefix': 'all'
+    'body': """
+      <mj-all $1 />
+    """
