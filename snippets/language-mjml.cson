@@ -165,3 +165,9 @@
         <mj-hero-content>\n\t$1\n</mj-hero-content>
       </mj-hero>
     """
+
+  'MJML Include':
+  'prefix': 'include'
+  'body': """
+    <mj-include $1 />
+  """
