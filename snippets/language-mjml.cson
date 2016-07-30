@@ -29,7 +29,7 @@
   'Mjml Location':
     'prefix': 'location'
     'body': """
-      <mj-location $1 />
+      <mj-location address=""/>
     """
 
   'Mjml Table':
@@ -83,7 +83,7 @@
   'Mjml List':
     'prefix': 'list'
     'body': """
-      <mj-list>\n\t$1\n</mj-list>
+      <mj-list>\n\t<li>$1</li>\n</mj-list>
     """
 
   'Mjml Body':
@@ -101,7 +101,7 @@
   'MJML Image':
     'prefix': 'image'
     'body': """
-      <mj-image $1 />
+      <mj-image src="$1" />
     """
 
   'MJML Group':
@@ -125,13 +125,13 @@
   'MJML Font':
     'prefix': 'font'
     'body': """
-      <mj-font $1 />
+      <mj-font name="$1" href="$2" />
     """
 
   'MJML Title':
     'prefix': 'title'
     'body': """
-      <mj-title> $1 </mj-title>
+      <mj-title>$1</mj-title>
     """
 
   'MJML HTML':
@@ -149,7 +149,7 @@
   'Mjml Class':
     'prefix': 'class'
     'body': """
-      <mj-class $1 />
+      <mj-class name="$1" $2/>
     """
 
   'Mjml All':
@@ -167,7 +167,7 @@
     """
 
   'MJML Include':
-  'prefix': 'include'
-  'body': """
-    <mj-include $1 />
-  """
+    'prefix': 'include'
+    'body': """
+      <mj-include path="$1" />
+    """
