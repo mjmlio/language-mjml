@@ -35,9 +35,7 @@
   'Mjml Location':
     'prefix': 'location'
     'body': """
-      <mj-location>
-      \t$1
-      </mj-location>
+      <mj-location $1 />
     """
 
   'Mjml Table':
