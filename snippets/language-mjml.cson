@@ -29,7 +29,7 @@
   'Mjml Location':
     'prefix': 'location'
     'body': """
-      <mj-location address=""/>
+      <mj-location address="$1"/>
     """
 
   'Mjml Table':
