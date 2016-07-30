@@ -1,0 +1,94 @@
+
+'.text.mjml.basic, .text.mjml, .text.mjml .meta.scope.between-tag-pair, .text.mjml .punctuation.tag.begin':
+
+# HTML elements
+  # B
+  'Bold':
+    'prefix': 'b'
+    'body': '<b>$1</b>$0'
+  'Line Breaker':
+    'prefix': 'br'
+    'body': '<br>'
+  # C
+  'Comment':
+    'prefix': '--'
+    'body': '<!-- $1 -->$0'
+  # D
+  'Div':
+    'prefix': 'div'
+    'body': '<div class="$2">\n\t$3\n</div>'
+  # H
+  'Heading 1':
+    'prefix': 'h1'
+    'body': '<h1>$1</h1>$0'
+  'Heading 2':
+    'prefix': 'h2'
+    'body': '<h2>$1</h2>$0'
+  'Heading 3':
+    'prefix': 'h3'
+    'body': '<h3>$1</h3>$0'
+  'Heading 4':
+    'prefix': 'h4'
+    'body': '<h4>$1</h4>$0'
+  'Heading 5':
+    'prefix': 'h5'
+    'body': '<h5>$1</h5>$0'
+  'Heading 6':
+    'prefix': 'h6'
+    'body': '<h6>$1</h6>$0'
+  # I
+  'Italic':
+    'prefix': 'i'
+    'body': '<i>$1</i>$0'
+  'Image':
+    'prefix': 'img'
+    'body': '<img src="$1" alt="$2" />$0'
+  # L
+  'Link':
+    'prefix': 'a'
+    'body': '<a href="$1">$2</a>$0'
+  'List Item':
+    'prefix': 'li'
+    'body': '<li>$1</li>$0'
+  # M
+  'Mail Anchor':
+    'prefix': 'mailto'
+    'body': '<a href="mailto:$1">$3</a>$0'
+  # O
+  'Ordered List':
+    'prefix': 'ol'
+    'body': '<ol>\n\t$1\n</ol>'
+  # P
+  'Paragraph':
+    'prefix': 'p'
+    'body': '<p>\n\t$1\n</p>'
+  'Preformatted Text':
+    'prefix': 'pre'
+    'body': '<pre>\n\t$1\n</pre>'
+  # S
+  'Small':
+    'prefix': 'small'
+    'body': '<small>$1</small>$0'
+  'Span':
+    'prefix': 'span'
+    'body': '<span>$1</span>$0'
+  'Strong':
+    'prefix': 'strong'
+    'body': '<strong>$1</strong>$0'
+  # T
+  'Table Cell':
+    'prefix': 'td'
+    'body': '<td>\n\t$1\n</td>'
+  'Table Header Cell':
+    'prefix': 'th'
+    'body': '<th>\n\t$1\n</th>'
+  'Table Row':
+    'prefix': 'tr'
+    'body': '<tr>\n\t$1\n</tr>'
+  # U
+  'Underline':
+    'prefix': 'u'
+    'body': '<u>$1</u>$0'
+  'Unordered List':
+    'prefix': 'ul'
+    'body': '<ul>\n\t$1\n</ul>'
