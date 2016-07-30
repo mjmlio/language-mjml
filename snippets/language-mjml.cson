@@ -5,9 +5,7 @@
   'Mjml Container':
     'prefix': 'contain'
     'body': """
-      <mj-container>
-      \t$1
-      </mj-container>
+      <mj-container>\n\t$1\n</mj-container>
     """
 
   'Mjml Divider':
@@ -19,17 +17,13 @@
   'Mjml Container':
     'prefix': 'container'
     'body': """
-      <mj-container>
-      \t$1
-      </mj-container>
+      <mj-container>\n\t$1\n</mj-container>
     """
 
   'Mjml Invoice':
     'prefix': 'invoice'
     'body': """
-      <mj-invoice>
-      \t$1
-      </mj-invoice>
+      <mj-invoice>\n\t$1\n</mj-invoice>
     """
 
   'Mjml Location':
@@ -41,89 +35,67 @@
   'Mjml Table':
     'prefix': 'table'
     'body': """
-      <mj-table>
-      \t$1
-      </mj-table>
+      <mj-table>\n\t$1\n</mj-table>
     """
 
   'Mjml':
     'prefix': 'mjml'
     'body': """
-      <mjml>
-      \t$1
-      </mjml>
+      <mjml>\n\t$1\n</mjml>
     """
 
   'Mjml Column':
     'prefix': 'col'
     'body': """
-      <mj-column>
-      \t$1
-      </mj-column>
+      <mj-column>\n\t$1\n</mj-column>
     """
 
   'Mjml Column':
     'prefix': 'column'
     'body': """
-      <mj-column>
-      \t$1
-      </mj-column>
+      <mj-column>\n\t$1\n</mj-column>
     """
 
   'Mjml Section':
     'prefix': 'section'
     'body': """
-      <mj-section>
-      \t$1
-      </mj-section>
+      <mj-section>\n\t$1\n</mj-section>
     """
 
   'Mjml Raw':
     'prefix': 'raw'
     'body': """
-      <mj-raw>
-      \t$1
-      </mj-raw>
+      <mj-raw>\n\t$1\n</mj-raw>
     """
 
   'Mjml Text':
     'prefix': 'text'
     'body': """
-      <mj-text>
-      \t$1
-      </mj-text>
+      <mj-text>\n\t$1\n</mj-text>
     """
 
   'Mjml Button':
     'prefix': 'button'
     'body': """
-      <mj-button>
-      \t$1
-      </mj-button>
+      <mj-button>\n\t$1\n</mj-button>
     """
 
   'Mjml List':
     'prefix': 'list'
     'body': """
-      <mj-list>
-      \t$1
-      </mj-list>
+      <mj-list>\n\t$1\n</mj-list>
     """
 
   'Mjml Body':
     'prefix': 'body'
     'body': """
-      <mj-body>
-      \t$1
-      </mj-body>
+      <mj-body>\n\t$1\n</mj-body>
     """
 
   'Mjml Social':
     'prefix': 'social'
     'body': """
-      <mj-social>
-      \t$1
-      </mj-social>
+      <mj-social>\n\t$1\n</mj-social>
     """
 
   'MJML Image':
@@ -135,25 +107,19 @@
   'MJML Group':
     'prefix': 'group'
     'body': """
-      <mj-group>
-      \t$1
-      </mj-group>
+      <mj-group>\n\t$1\n</mj-group>
     """
 
   'MJML Head':
     'prefix': 'head'
     'body': """
-      <mj-head>
-      \t$1
-      </mj-head>
+      <mj-head>\n\t$1\n</mj-head>
     """
 
   'MJML Attributes':
     'prefix': 'attributes'
     'body': """
-      <mj-attributes>
-      \t$1
-      </mj-attributes>
+      <mj-attributes>\n\t$1\n</mj-attributes>
     """
 
   'MJML Font':
@@ -171,9 +137,7 @@
   'MJML HTML':
     'prefix': 'html'
     'body': """
-      <mj-html>
-      \t$1
-      </mj-html>
+      <mj-html>\n\t$1\n</mj-html>
     """
 
   'Mjml Spacer':
@@ -198,8 +162,6 @@
     'prefix': 'hero'
     'body': """
       <mj-hero>
-        <mj-hero-content>
-        \t$1
-        </mj-hero-content>
+        <mj-hero-content>\n\t$1\n</mj-hero-content>
       </mj-hero>
     """
