@@ -13,6 +13,39 @@ apm install language-mjml
 
 ## Usage
 
+Template
+
+Type `mjml-` and hit <Tab> to see the magic happen
+
+```
+mjml-<tab>
+
+# will expand to
+
+<mjml>
+  <mj-head>
+    <mj-title></mj-title>
+    <mj-attributes>
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-container>
+
+      <mj-section>
+        <mj-column>
+
+        </mj-column>
+      </mj-section>
+
+    </mj-container>
+  </mj-body>
+</mjml>
+
+```
+
+Components
+
 type any mjml tag name, without `mj-` and hit <Tab> to see the magic happen
 
 ```
