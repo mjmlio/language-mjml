@@ -178,6 +178,12 @@
       <mj-style>\n\t$1\n</mj-style>
     """
 
+  'MJML Chart':
+    'prefix': 'style'
+    'body': """
+      <mj-chart $1 />
+    """
+
 # MJML Template
   'Basic MJML Template':
     'prefix': 'mjml-'

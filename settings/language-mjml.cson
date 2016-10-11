@@ -2,7 +2,7 @@
   'editor':
     'commentStart': '<!-- '
     'commentEnd': ' -->'
-    'foldEndPattern': '(?x)\n\t\t(</(?i:head|body|mjml|mj-body|mj-container|mj-location|mj-table|mj-section|mj-raw|mj-column|mj-row|mj-social|mj-button|mj-text|mj-image|mj-include|mj-group|mj-head|mj-attributes|mj-font|mj-title|mj-spacer|mj-html|mj-hero|mj-hero-content|mj-all|mj-class|mj-style|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|li|form|dl|section|article|header|footer|nav|aside)>\n\t\t|^(?!.*?<!--).*?--\\s*>\n\t\t|^<!--\\ end\\ tminclude\\ -->$\n\t\t|<\\?(?:php)?.*\\bend(if|for(each)?|while)\\b\n\t\t|\\{\\{?/(if|foreach|capture|literal|foreach|php|section|strip)\n\t\t|^[^{]*\\}\n\t\t|^\\s*\\)[,;]\n\t\t)'
+    'foldEndPattern': '(?x)\n\t\t(</(?i:head|body|mjml|mj-body|mj-container|mj-location|mj-table|mj-section|mj-raw|mj-column|mj-row|mj-social|mj-button|mj-text|mj-image|mj-include|mj-group|mj-head|mj-attributes|mj-font|mj-title|mj-spacer|mj-html|mj-hero|mj-hero-content|mj-all|mj-class|mj-style|mj-chart|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|li|form|dl|section|article|header|footer|nav|aside)>\n\t\t|^(?!.*?<!--).*?--\\s*>\n\t\t|^<!--\\ end\\ tminclude\\ -->$\n\t\t|<\\?(?:php)?.*\\bend(if|for(each)?|while)\\b\n\t\t|\\{\\{?/(if|foreach|capture|literal|foreach|php|section|strip)\n\t\t|^[^{]*\\}\n\t\t|^\\s*\\)[,;]\n\t\t)'
     'increaseIndentPattern': '(?x)
       <(?!\\?|(?:area|base|br|col|frame|hr|html|img|input|link|meta|param)\\b|[^>]*/>)
       ([-_\\.A-Za-z0-9]+)(?=\\s|>)\\b[^>]*>(?!.*</\\1>)
