@@ -172,6 +172,12 @@
       <mj-include path="$1" />
     """
 
+  'MJML Style':
+    'prefix': 'style'
+    'body': """
+      <mj-style>\n\t$1\n</mj-style>
+    """
+
 # MJML Template
   'Basic MJML Template':
     'prefix': 'mjml-'
