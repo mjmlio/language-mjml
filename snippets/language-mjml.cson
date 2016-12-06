@@ -177,6 +177,18 @@
     'body': """
       <mj-style>\n\t$1\n</mj-style>
     """
+    
+  'MJML Carousel':
+    'prefix': 'carousel'
+    'body': """
+      <mj-carousel>\n\t$1\n</mj-carousel>
+    """
+
+  'MJML Carousel Image':
+    'prefix': 'carousel-image'
+    'body': """
+      <mj-carousel-image src="$1" />
+    """
 
 # MJML Template
   'Basic MJML Template':
