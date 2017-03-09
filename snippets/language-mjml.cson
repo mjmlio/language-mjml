@@ -199,7 +199,7 @@
   'MJML Accordion':
     'prefix': 'accordion'
     'body': """
-      <mj-accordion>\n\t$1\n</mj-accordion-element>
+      <mj-accordion>\n\t$1\n</mj-accordion>
     """
 
   'MJML Accordion Element':
