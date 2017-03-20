@@ -177,7 +177,7 @@
     'body': """
       <mj-style>\n\t$1\n</mj-style>
     """
-    
+
   'MJML Carousel':
     'prefix': 'carousel'
     'body': """
@@ -188,6 +188,27 @@
     'prefix': 'carousel-image'
     'body': """
       <mj-carousel-image src="$1" />
+    """
+
+  'MJML Wrapper':
+    'prefix': 'wrapper'
+    'body': """
+      <mj-wrapper>\n\t$1\n</mj-wrapper>
+    """
+
+  'MJML Accordion':
+    'prefix': 'accordion'
+    'body': """
+      <mj-accordion>\n\t$1\n</mj-accordion>
+    """
+
+  'MJML Accordion Element':
+    'prefix': 'accordion-element'
+    'body': """
+      <mj-accordion-element $1>
+      \t<mj-accordion-title $2>\n\t\t$3\n</mj-accordion-title>
+      \t<mj-accordion-text $4>\n\t\t$5\n</mj-accordion-text>
+      </mj-accordion-element>
     """
 
 # MJML Template
