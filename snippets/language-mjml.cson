@@ -80,12 +80,6 @@
       <mj-button>\n\t$1\n</mj-button>
     """
 
-  'Mjml List':
-    'prefix': 'list'
-    'body': """
-      <mj-list>\n\t<li>$1</li>\n</mj-list>
-    """
-
   'Mjml Body':
     'prefix': 'body'
     'body': """
@@ -132,12 +126,6 @@
     'prefix': 'title'
     'body': """
       <mj-title>$1</mj-title>
-    """
-
-  'MJML HTML':
-    'prefix': 'html'
-    'body': """
-      <mj-html>\n\t$1\n</mj-html>
     """
 
   'Mjml Spacer':
@@ -205,9 +193,9 @@
   'MJML Accordion Element':
     'prefix': 'accordion-element'
     'body': """
-      <mj-accordion-element $1>
-      \t<mj-accordion-title $2>\n\t\t$3\n</mj-accordion-title>
-      \t<mj-accordion-text $4>\n\t\t$5\n</mj-accordion-text>
+      <mj-accordion-element>
+      \t<mj-accordion-title> $1 </mj-accordion-title>
+      \t<mj-accordion-text> $2 </mj-accordion-text>
       </mj-accordion-element>
     """
 
