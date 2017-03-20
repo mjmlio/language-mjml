@@ -1,6 +1,6 @@
 {
   "name": "language-mjml",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "MJML language support in Atom",
   "engines": {
     "atom": "*",
