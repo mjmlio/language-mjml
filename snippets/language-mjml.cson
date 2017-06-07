@@ -199,6 +199,12 @@
       </mj-accordion-element>
     """
 
+    'MJML Preview':
+      'prefix': 'preview'
+      'body': """
+        <mj-preview>$1</mj-preview>
+      """
+
 # MJML Template
   'Basic MJML Template':
     'prefix': 'mjml-'
