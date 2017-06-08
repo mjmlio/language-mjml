@@ -127,6 +127,12 @@
     'body': """
       <mj-title>$1</mj-title>
     """
+    
+  'MJML Preview':
+    'prefix': 'preview'
+    'body': """
+      <mj-preview>$1</mj-preview>
+    """
 
   'Mjml Spacer':
     'prefix': 'spacer'
@@ -198,12 +204,6 @@
       \t<mj-accordion-text> $2 </mj-accordion-text>
       </mj-accordion-element>
     """
-
-    'MJML Preview':
-      'prefix': 'preview'
-      'body': """
-        <mj-preview>$1</mj-preview>
-      """
 
 # MJML Template
   'Basic MJML Template':
