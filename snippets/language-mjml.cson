@@ -156,9 +156,7 @@
   'MJML Hero':
     'prefix': 'hero'
     'body': """
-      <mj-hero>
-        <mj-hero-content>\n\t$1\n</mj-hero-content>
-      </mj-hero>
+      <mj-hero>\n\t$1\n</mj-hero>
     """
 
   'MJML Include':
