@@ -2,22 +2,11 @@
 '.text.mjml.basic, .text.mjml, .text.mjml .meta.scope.between-tag-pair, .text.mjml .punctuation.tag.begin':
 
 # MJML elements
-  'Mjml Container':
-    'prefix': 'contain'
-    'body': """
-      <mj-container>\n\t$1\n</mj-container>
-    """
 
   'Mjml Divider':
     'prefix': 'divider'
     'body': """
       <mj-divider $1 />
-    """
-
-  'Mjml Container':
-    'prefix': 'container'
-    'body': """
-      <mj-container>\n\t$1\n</mj-container>
     """
 
   'Mjml Invoice':
@@ -92,6 +81,12 @@
       <mj-social>\n\t$1\n</mj-social>
     """
 
+  'Mjml Social Element':
+    'prefix': 'socialelement'
+    'body': """
+      <mj-social-element>\n\t$1\n</mj-social-element>
+    """
+
   'MJML Image':
     'prefix': 'image'
     'body': """
@@ -122,12 +117,18 @@
       <mj-font name="$1" href="$2" />
     """
 
+  'MJML Breakpoint':
+    'prefix': 'breakpoint'
+    'body': """
+      <mj-breakpoint width="$1" />
+    """
+
   'MJML Title':
     'prefix': 'title'
     'body': """
       <mj-title>$1</mj-title>
     """
-    
+
   'MJML Preview':
     'prefix': 'preview'
     'body': """
@@ -203,6 +204,18 @@
       \t<mj-accordion-title> $1 </mj-accordion-title>
       \t<mj-accordion-text> $2 </mj-accordion-text>
       </mj-accordion-element>
+    """
+
+  'MJML Navbar':
+    'prefix': 'navbar'
+    'body': """
+      <mj-navbar>\n\t$1\n</mj-navbar>
+    """
+
+  'MJML Navbar Link':
+    'prefix': 'navbarlink'
+    'body': """
+      <mj-navbar-link>\n\t$1\n</mj-navbar-link>
     """
 
 # MJML Template
