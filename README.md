@@ -30,15 +30,11 @@ mjml-<tab>
     </mj-attributes>
   </mj-head>
   <mj-body>
-    <mj-container>
-
       <mj-section>
         <mj-column>
 
         </mj-column>
       </mj-section>
-
-    </mj-container>
   </mj-body>
 </mjml>
 

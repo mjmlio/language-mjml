@@ -228,15 +228,11 @@
       \t\t</mj-attributes>
       \t</mj-head>
       \t<mj-body>
-      \t\t<mj-container>
-
-      \t\t\t<mj-section>
-      \t\t\t\t<mj-column>
+      \t\t<mj-section>
+      \t\t\t<mj-column>
       \t\t\t\t\t$3
-      \t\t\t\t</mj-column>
-      \t\t\t</mj-section>
-
-      \t\t</mj-container>
+      \t\t\t</mj-column>
+      \t\t</mj-section>
       \t</mj-body>
       </mjml>
     """
