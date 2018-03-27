@@ -33,7 +33,7 @@
       <mjml>\n\t$1\n</mjml>
     """
 
-  'Mjml Column':
+  'Mjml Column (short)':
     'prefix': 'col'
     'body': """
       <mj-column>\n\t$1\n</mj-column>
