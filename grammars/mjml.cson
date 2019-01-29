@@ -134,6 +134,38 @@
     ]
   }
   {
+    'begin': '(?:^\\s+)?(<)((?i:mj-style))\\b(?![^>]*/>)'
+    'captures':
+      '1':
+        'name': 'punctuation.definition.tag.mjml'
+      '2':
+        'name': 'entity.name.tag.mj-style.mjml'
+      '3':
+        'name': 'punctuation.definition.tag.mjml'
+    'end': '(</)((?i:mj-style))(>)(?:\\s*\\n)?'
+    'name': 'source.css.embedded.mjml'
+    'patterns': [
+      {
+        'include': '#tag-stuff'
+      }
+      {
+        'begin': '(>)'
+        'beginCaptures':
+          '1':
+            'name': 'punctuation.definition.tag.mjml'
+        'end': '(?=</(?i:mj-style))'
+        'patterns': [
+          {
+            'include': '#embedded-code'
+          }
+          {
+            'include': 'source.css'
+          }
+        ]
+      }
+    ]
+  }
+  {
     'begin': '(?:^\\s+)?(<)((?i:script))\\b(?=[^>]*\\btype\\s*=\\s*[\'"]?text/(x-handlebars|(x-handlebars-)?template|mjml)[\'"]?)(?![^>]*/>)'
     'beginCaptures':
       '1':
