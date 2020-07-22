@@ -3,25 +3,22 @@
 
 Adds syntax highlighting and snippets to MJML files in Atom.
 
-This is a fork from language-html by atom
+This is a fork from `language-html` by atom.
 
 ## Installation
 
-```
+```sh
 apm install language-mjml
 ```
 
 ## Usage
 
-Template
+### Template
 
-Type `mjml-` and hit <Tab> to see the magic happen
+Type `mjml-` and hit <kbd>tab</kbd> to see the magic happen
 
-```
-mjml-<tab>
-
-# will expand to
-
+```html
+<!-- will expand to -->
 <mjml>
   <mj-head>
     <mj-title></mj-title>
@@ -37,23 +34,20 @@ mjml-<tab>
       </mj-section>
   </mj-body>
 </mjml>
-
 ```
 
-Components
+### Components
 
-type any mjml tag name, without `mj-` and hit <Tab> to see the magic happen
+Type any `mjml` tag name, without `mj-` and hit <kbd>tab</kbd> to see the magic happen. Ex: `body`
 
-```
-body<tab>
-
-# will expand to
-
+```html
+<!-- will expand to -->
 <mj-body>
 
 </mj-body>
-
 ```
+
+## Contributing
 
 Contributions are greatly appreciated. Please fork this repository and open a
 pull request to add snippets, make grammar tweaks, etc.

@@ -1,200 +1,14 @@
-
-'.text.mjml.basic, .text.mjml, .text.mjml .meta.scope.between-tag-pair, .text.mjml .punctuation.tag.begin':
-
-# MJML elements
-
-  'Mjml Divider':
-    'prefix': 'divider'
-    'body': """
-      <mj-divider $1 />
-    """
-
-  'Mjml Invoice':
-    'prefix': 'invoice'
-    'body': """
-      <mj-invoice>\n\t$1\n</mj-invoice>
-    """
-
-  'Mjml Location':
-    'prefix': 'location'
-    'body': """
-      <mj-location address="$1"/>
-    """
-
-  'Mjml Table':
-    'prefix': 'table'
-    'body': """
-      <mj-table>\n\t$1\n</mj-table>
-    """
-
-  'Mjml':
-    'prefix': 'mjml'
-    'body': """
-      <mjml>\n\t$1\n</mjml>
-    """
-
-  'Mjml Column (short)':
-    'prefix': 'col'
-    'body': """
-      <mj-column>\n\t$1\n</mj-column>
-    """
-
-  'Mjml Column':
-    'prefix': 'column'
-    'body': """
-      <mj-column>\n\t$1\n</mj-column>
-    """
-
-  'Mjml Section':
-    'prefix': 'section'
-    'body': """
-      <mj-section>\n\t$1\n</mj-section>
-    """
-
-  'Mjml Raw':
-    'prefix': 'raw'
-    'body': """
-      <mj-raw>\n\t$1\n</mj-raw>
-    """
-
-  'Mjml Text':
-    'prefix': 'text'
-    'body': """
-      <mj-text>\n\t$1\n</mj-text>
-    """
-
-  'Mjml Button':
-    'prefix': 'button'
-    'body': """
-      <mj-button>\n\t$1\n</mj-button>
-    """
-
-  'Mjml Body':
-    'prefix': 'body'
-    'body': """
-      <mj-body>\n\t$1\n</mj-body>
-    """
-
-  'Mjml Social':
-    'prefix': 'social'
-    'body': """
-      <mj-social>\n\t$1\n</mj-social>
-    """
-
-  'Mjml Social Element':
-    'prefix': 'socialelement'
-    'body': """
-      <mj-social-element>\n\t$1\n</mj-social-element>
-    """
-
-  'MJML Image':
-    'prefix': 'image'
-    'body': """
-      <mj-image src="$1" />
-    """
-
-  'MJML Group':
-    'prefix': 'group'
-    'body': """
-      <mj-group>\n\t$1\n</mj-group>
-    """
-
-  'MJML Head':
-    'prefix': 'head'
-    'body': """
-      <mj-head>\n\t$1\n</mj-head>
-    """
-
-  'MJML Attributes':
-    'prefix': 'attributes'
-    'body': """
-      <mj-attributes>\n\t$1\n</mj-attributes>
-    """
-
-  'MJML Font':
-    'prefix': 'font'
-    'body': """
-      <mj-font name="$1" href="$2" />
-    """
-
-  'MJML Breakpoint':
-    'prefix': 'breakpoint'
-    'body': """
-      <mj-breakpoint width="$1" />
-    """
-
-  'MJML Title':
-    'prefix': 'title'
-    'body': """
-      <mj-title>$1</mj-title>
-    """
-
-  'MJML Preview':
-    'prefix': 'preview'
-    'body': """
-      <mj-preview>$1</mj-preview>
-    """
-
-  'Mjml Spacer':
-    'prefix': 'spacer'
-    'body': """
-      <mj-spacer $1 />
-    """
-
-  'Mjml Class':
-    'prefix': 'class'
-    'body': """
-      <mj-class name="$1" $2/>
-    """
-
-  'Mjml All':
-    'prefix': 'all'
-    'body': """
-      <mj-all $1 />
-    """
-
-  'MJML Hero':
-    'prefix': 'hero'
-    'body': """
-      <mj-hero>\n\t$1\n</mj-hero>
-    """
-
-  'MJML Include':
-    'prefix': 'include'
-    'body': """
-      <mj-include path="$1" />
-    """
-
-  'MJML Style':
-    'prefix': 'style'
-    'body': """
-      <mj-style>\n\t$1\n</mj-style>
-    """
-
-  'MJML Carousel':
-    'prefix': 'carousel'
-    'body': """
-      <mj-carousel>\n\t$1\n</mj-carousel>
-    """
-
-  'MJML Carousel Image':
-    'prefix': 'carousel-image'
-    'body': """
-      <mj-carousel-image src="$1" />
-    """
-
-  'MJML Wrapper':
-    'prefix': 'wrapper'
-    'body': """
-      <mj-wrapper>\n\t$1\n</mj-wrapper>
-    """
-
+# Important: When adding a new snippet,
+# there is a second section halfway down this file
+# where you need to null-out the snippet to prevent it from
+# appearing in tags or embedded contexts
+'.text.mjml':
+  # A
   'MJML Accordion':
     'prefix': 'accordion'
     'body': """
       <mj-accordion>\n\t$1\n</mj-accordion>
     """
-
   'MJML Accordion Element':
     'prefix': 'accordion-element'
     'body': """
@@ -203,21 +17,116 @@
       \t<mj-accordion-text> $2 </mj-accordion-text>
       </mj-accordion-element>
     """
-
-  'MJML Navbar':
-    'prefix': 'navbar'
+  'MJML All':
+    'prefix': 'all'
     'body': """
-      <mj-navbar>\n\t$1\n</mj-navbar>
+      <mj-all $1 />
     """
-
-  'MJML Navbar Link':
-    'prefix': 'navbarlink'
+  'MJML Attributes':
+    'prefix': 'attributes'
     'body': """
-      <mj-navbar-link>\n\t$1\n</mj-navbar-link>
+      <mj-attributes>\n\t$1\n</mj-attributes>
     """
-
-# MJML Template
-  'Basic MJML Template':
+  # B
+  'MJML Body':
+    'prefix': 'body'
+    'body': """
+      <mj-body>\n\t$1\n</mj-body>
+    """
+  'MJML Breakpoint':
+    'prefix': 'breakpoint'
+    'body': """
+      <mj-breakpoint width="$1" />
+    """
+  'MJML Button':
+    'prefix': 'button'
+    'body': """
+      <mj-button>\n\t$1\n</mj-button>
+    """
+  # C
+  'MJML Carousel':
+    'prefix': 'carousel'
+    'body': """
+      <mj-carousel>\n\t$1\n</mj-carousel>
+    """
+  'MJML Carousel Image':
+    'prefix': 'carousel-image'
+    'body': """
+      <mj-carousel-image src="$1" />
+    """
+  'MJML Class':
+    'prefix': 'class'
+    'body': """
+      <mj-class name="$1" $2/>
+    """
+  'MJML Column (short)':
+    'prefix': 'col'
+    'body': """
+      <mj-column>\n\t$1\n</mj-column>
+    """
+  'MJML Column':
+    'prefix': 'column'
+    'body': """
+      <mj-column>\n\t$1\n</mj-column>
+    """
+  # D
+  'MJML Divider':
+    'prefix': 'divider'
+    'body': """
+      <mj-divider $1 />
+    """
+  # F
+  'MJML Font':
+    'prefix': 'font'
+    'body': """
+      <mj-font name="$1" href="$2" />
+    """
+  # G
+  'MJML Group':
+    'prefix': 'group'
+    'body': """
+      <mj-group>\n\t$1\n</mj-group>
+    """
+  # H
+  'MJML Head':
+    'prefix': 'head'
+    'body': """
+      <mj-head>\n\t$1\n</mj-head>
+    """
+  'MJML Hero':
+    'prefix': 'hero'
+    'body': """
+      <mj-hero>\n\t$1\n</mj-hero>
+    """
+  # I
+  'MJML Image':
+    'prefix': 'image'
+    'body': """
+      <mj-image src="$1" />
+    """
+  'MJML Include':
+    'prefix': 'include'
+    'body': """
+      <mj-include path="$1" />
+    """
+  'MJML Invoice':
+    'prefix': 'invoice'
+    'body': """
+      <mj-invoice>\n\t$1\n</mj-invoice>
+    """
+  # L
+  'MJML Location':
+    'prefix': 'location'
+    'body': """
+      <mj-location address="$1"/>
+    """
+  # M
+  'MJML':
+    'prefix': 'mjml'
+    'body': """
+      <mjml>\n\t$1\n</mjml>
+    """
+  'MJML Basic Template':
     'prefix': 'mjml-'
     'body': """
       <mjml>
@@ -236,3 +145,166 @@
       \t</mj-body>
       </mjml>
     """
+  # N
+  'MJML Navbar':
+    'prefix': 'navbar'
+    'body': """
+      <mj-navbar>\n\t$1\n</mj-navbar>
+    """
+  'MJML Navbar Link':
+    'prefix': 'navbarlink'
+    'body': """
+      <mj-navbar-link>\n\t$1\n</mj-navbar-link>
+    """
+  # P
+  'MJML Preview':
+    'prefix': 'preview'
+    'body': """
+      <mj-preview>$1</mj-preview>
+    """
+  # R
+  'MJML Raw':
+    'prefix': 'raw'
+    'body': """
+      <mj-raw>\n\t$1\n</mj-raw>
+    """
+  # S  
+  'MJML Section':
+    'prefix': 'section'
+    'body': """
+      <mj-section>\n\t$1\n</mj-section>
+    """
+  'MJML Social':
+    'prefix': 'social'
+    'body': """
+      <mj-social>\n\t$1\n</mj-social>
+    """
+  'MJML Social Element':
+    'prefix': 'socialelement'
+    'body': """
+      <mj-social-element>\n\t$1\n</mj-social-element>
+    """
+  'MJML Spacer':
+    'prefix': 'spacer'
+    'body': """
+      <mj-spacer $1 />
+    """
+  'MJML Style':
+    'prefix': 'style'
+    'body': """
+      <mj-style>\n\t$1\n</mj-style>
+    """
+  # T
+  'MJML Table':
+    'prefix': 'table'
+    'body': """
+      <mj-table>\n\t$1\n</mj-table>
+    """
+  'MJML Text':
+    'prefix': 'text'
+    'body': """
+      <mj-text>\n\t$1\n</mj-text>
+    """
+  'MJML Title':
+    'prefix': 'title'
+    'body': """
+      <mj-title>$1</mj-title>
+    """
+  # W
+  'MJML Wrapper':
+    'prefix': 'wrapper'
+    'body': """
+      <mj-wrapper>\n\t$1\n</mj-wrapper>
+    """
+
+# These null out the snippets so the snippets are not available when in a tag or
+# in embedded contexts like <mj-style>
+'.text.mjml .meta.tag, .text.mjml .embedded':
+  # A
+  'MJML Accordion':
+    'prefix': 'accordion'
+  'MJML Accordion Element':
+    'prefix': 'accordion-element'
+  'MJML All':
+    'prefix': 'all'
+  'MJML Attributes':
+    'prefix': 'attributes'
+  # B
+  'MJML Body':
+    'prefix': 'body'
+  'MJML Breakpoint':
+    'prefix': 'breakpoint'
+  'MJML Button':
+    'prefix': 'button'
+  # C
+  'MJML Carousel':
+    'prefix': 'carousel'
+  'MJML Carousel Image':
+    'prefix': 'carousel-image'
+  'MJML Class':
+    'prefix': 'class'
+  'MJML Column (short)':
+    'prefix': 'col'
+  'MJML Column':
+    'prefix': 'column'
+  # D
+  'MJML Divider':
+    'prefix': 'divider'
+  # F
+  'MJML Font':
+    'prefix': 'font'
+  # G
+  'MJML Group':
+    'prefix': 'group'
+  # H
+  'MJML Head':
+    'prefix': 'head'
+  'MJML Hero':
+    'prefix': 'hero'
+  # I
+  'MJML Image':
+    'prefix': 'image'
+  'MJML Include':
+    'prefix': 'include'
+  'MJML Invoice':
+    'prefix': 'invoice'
+  # L
+  'MJML Location':
+    'prefix': 'location'
+  # M
+  'MJML':
+    'prefix': 'mjml'
+  'MJML Basic Template':
+    'prefix': 'mjml-'
+  # N
+  'MJML Navbar':
+    'prefix': 'navbar'
+  'MJML Navbar Link':
+    'prefix': 'navbarlink'
+  # P
+  'MJML Preview':
+    'prefix': 'preview'
+  # R
+  'MJML Raw':
+    'prefix': 'raw'
+  # S  
+  'MJML Section':
+    'prefix': 'section'
+  'MJML Social':
+    'prefix': 'social'
+  'MJML Social Element':
+    'prefix': 'socialelement'
+  'MJML Spacer':
+    'prefix': 'spacer'
+  'MJML Style':
+    'prefix': 'style'
+  # T
+  'MJML Table':
+    'prefix': 'table'
+  'MJML Text':
+    'prefix': 'text'
+  'MJML Title':
+    'prefix': 'title'
+  # W
+  'MJML Wrapper':
+    'prefix': 'wrapper'
